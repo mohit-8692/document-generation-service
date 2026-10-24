@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pdf-service
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.yourorg.pdfservice: INFO

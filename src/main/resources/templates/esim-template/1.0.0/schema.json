@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "esim-template v1.0.0",
+  "type": "object",
+  "required": ["packageName", "iccid"],
+  "properties": {
+    "packageName": { "type": "string" },
+    "iccid": { "type": "string" },
+    "qrCodeUrl": { "type": "string" }
+  }
+}

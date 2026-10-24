@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "order-template v1.0.0",
+  "type": "object",
+  "required": ["orderNumber", "productName", "quantity"],
+  "properties": {
+    "orderNumber": { "type": "string" },
+    "productName": { "type": "string" },
+    "quantity": { "type": "integer", "minimum": 1 }
+  }
+}
